@@ -49,4 +49,11 @@
         android:textColor="#9C27B0"
         android:textSize="14sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpiar"
+        android:text="LIMPIAR" />
 </LinearLayout>

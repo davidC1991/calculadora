@@ -34,4 +34,13 @@ public class MainActivity extends AppCompatActivity {
         suma = num_uno + num_dos;
         resultado.setText(""+suma);
     }
+
+    public void limpiar(View v){
+        numero_uno.setText("");
+        numero_dos.setText("");
+        resultado.setText("");
+        numero_uno.requestFocus();
+    }
+
+    
 }
